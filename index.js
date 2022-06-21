@@ -17,10 +17,10 @@
 // let score = 64;
 
 // if (score >= limit) {
-    // console.log("OK good !");
+//     console.log("OK good !");
 // }
 // else {
-    // console.log("Oh nooo...");
+//     console.log("Oh nooo...");
 // }
 
 
@@ -29,11 +29,11 @@
 // const password ="azerty";
 
 // if (password.length > 5){
-    // console.log ("The password is secure")
+//     console.log ("The password is secure")
 // }
 
 // else {
-    // console.log ("Password is not secured")
+//     console.log ("Password is not secured")
 // }
 
 
@@ -44,13 +44,13 @@
 // const password ="azerty";
 
 // if (score >= limit && password.length > 5) {
-    // console.log("Everything is good !");
+//     console.log("Everything is good !");
 // }
 // else if (score >= limit || password.length > 5){
-    // console.log("Something is good")
+//     console.log("Something is good")
 // }
 // else {
-    // console.log ("Nothing is good")
+//     console.log ("Nothing is good")
 // }
 
 
@@ -107,7 +107,50 @@
 // }
 
 
+// 8- Rounded but better    
+
+// let roundedNumber =  12.4;
+// let roundedNumberStringed= roundedNumber.toString();
+
+// let roundedNumberDecimalDot = roundedNumberStringed.indexOf(".") +1;
+// let roundedNumberEnd = roundedNumberStringed.toString().length;
+
+// let roundedNumberDecimal = roundedNumberStringed.substring (roundedNumberDecimalDot ,roundedNumberEnd)
+
+// if (roundedNumberDecimal > 5) {
+//     roundedNumber = Math.ceil(roundedNumber);
+//     console.log (roundedNumber)
+// }
+
+// else {
+//     roundedNumber = Math.floor(roundedNumber);
+//     console.log (roundedNumber)
+// }
+
+// 9- Rounded but better, Méthode 3
+
+// let roundedNumber =  12.6;
+// let roundedNumberStringed= roundedNumber.toString();
+
+// let roundedNumberArray = roundedNumberStringed.split(".");
+// let roundedNumberDecimal = roundedNumberArray[1];
+
+// if (roundedNumberDecimal > 5) {
+//         roundedNumber = Math.ceil(roundedNumber);
+//         console.log (roundedNumber)
+// }
     
+// else {
+//         roundedNumber = Math.floor(roundedNumber);
+//         console.log (roundedNumber)
+// }
+
+
+
+
+
+
+
 
 
 

@@ -94,6 +94,21 @@
 
 // 7- Rounded but better
 
-let roundedNumber =  3.6;
+// let roundedNumber =  12.6;
+
+// if (roundedNumber - Math.floor(roundedNumber) >=0.5) {
+//     roundedNumber = Math.ceil(roundedNumber);
+//     console.log (roundedNumber)
+// }
+
+// else {
+//     roundedNumber= Math.floor(roundedNumber);
+//     console.log (roundedNumber)
+// }
+
+
+    
+
+
 
     
